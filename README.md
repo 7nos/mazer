@@ -6,6 +6,8 @@ The objective was to transform the generic template into a branded, data-driven 
 
 ![ScreenShort 1](https://github.com/7nos/mazer/blob/main/Screenshot%202025-12-31%20181515.png)
 
+![ScreenShort 2](https://github.com/7nos/mazer/blob/main/Screenshot%202025-12-31%20181525.png)
+
 ## Key Features
 - **Custom Branding**: App title and navigation rebranded to "KeshavSoft".
 - **Royal Blue Theme**: Primary color updated to `#4361ee` for a premium, professional look.
