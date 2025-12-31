@@ -6,3 +6,6 @@ featherIcons.replace()
 // Mazer internal JS. Include this in your project to get
 // the sidebar running.
 import "./mazer" 
+
+// Data handler for KeshavSoft dashboard
+import "./dataHandler"

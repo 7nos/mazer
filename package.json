@@ -1,14 +1,14 @@
 {
-  "name": "mazer",
+  "name": "keshavsoft",
   "version": "2.3.1",
-  "description": "Free and Open-source Bootstrap 5 Admin Dashboard Template and Landing Page",
+  "description": "KeshavSoft - Free and Open-source Bootstrap 5 Admin Dashboard Template and Landing Page",
   "scripts": {
     "dev": "vite",
     "build": "vite build && npm run prettify",
     "watch": "vite build --watch",
     "prod-rtl": "npm run build && rtl",
     "rtl": "rtlcss -d \"dist/assets/compiled/css\" -e \".rtl.css\" && find . -type f -name '*.rtl.rtl.css' -delete",
-    "prettify": "prettier --write 'dist/*.html'",
+    "prettify": "prettier --write \"dist/*.html\"",
     "zip": "bestzip template.zip dist/*",
     "preview": "vite preview"
   },

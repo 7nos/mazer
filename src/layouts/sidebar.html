@@ -2,7 +2,7 @@
     <div class="sidebar-header position-relative">
         <div class="d-flex justify-content-between align-items-center">
             <div class="logo">
-                <a href="index.html"><img src="assets/static/images/logo/logo.svg" alt="Logo" srcset=""></a>
+                <a href="index.html" class="sidebar-title">KeshavSoft</a>
             </div>
             <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
@@ -50,7 +50,8 @@
                 {% if sidebarItem.submenu.length > 0 %}
                 <ul class="submenu {{ 'active' if (sub.url == filename or filename|startsWith(sidebarItem.key)) }}">
                     {% for sub in sidebarItem.submenu %}
-                    <li class="submenu-item {{ 'active' if sub.url == filename or filename|startsWith(sub.key) }} {{'has-sub' if sub.submenu.length > 0 }}">
+                    <li
+                        class="submenu-item {{ 'active' if sub.url == filename or filename|startsWith(sub.key) }} {{'has-sub' if sub.submenu.length > 0 }}">
                         <a href="{{ sub.url }}" class="submenu-link">{{ sub.name }}</a>
                         {% if sub.submenu.length > 0 %}
                         <ul class="submenu submenu-level-2 ">

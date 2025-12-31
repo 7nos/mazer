@@ -27,6 +27,13 @@
     .navbar-brand img {
         height: 1.5rem;
     }
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        height: 1.5rem;
+    }
     .user-menu img {
         width: 39px;
         height: 39px
@@ -111,6 +118,15 @@
 
         .logo img {
             height: 20px
+        }
+        .logo .sidebar-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            height: 20px;
         }
     }
     .header-top-right {

@@ -6,6 +6,7 @@ import nunjucks from 'vite-plugin-nunjucks'
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import sidebarItems from "./src/sidebar-items.json"
 import horizontalMenuItems from "./src/horizontal-menu-items.json"
+import dashboardData from "./src/data.json"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -30,9 +31,10 @@ const getVariables = (mode) => {
     Object.keys(files).forEach((filename) => {
         if (filename.includes('layouts')) filename = `layouts/${filename}`
         variables[filename + '.html'] = {
-            web_title: "Mazer Admin Dashboard",
+            web_title: "KeshavSoft",
             sidebarItems,
             horizontalMenuItems,
+            dashboardData,
             isDev: mode === 'development'
         }
     })

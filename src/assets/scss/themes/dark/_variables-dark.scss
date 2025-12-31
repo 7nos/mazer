@@ -2,6 +2,10 @@
 
 $dark-mode: true;
 
+// Custom primary color (olive green) and opposite color (orange-red)
+$primary:    #3a3a3a !default; // Dark gray for dark theme
+$orange:    #FF8C42 !default; // Opposite color for dark theme
+
 $theme-colors-light: (
   'primary': tint-color($primary, 25%),
   'secondary': tint-color($secondary, 25%),
@@ -15,7 +19,7 @@ $theme-colors-light: (
 $alert-colors: (
     primary: (
         text-color: #fff,
-        background-color: #435ebe
+        background-color: $primary // Dark gray for dark theme
     ),
     secondary: (
         text-color: #383d41,
@@ -27,7 +31,7 @@ $alert-colors: (
     ),
     warning: (
         text-color: #3f3a26,
-        background-color: #eaca4a,
+        background-color: #FF8C42 // Opposite color for dark theme,
     ),
     danger: (
         text-color: #fff,
@@ -47,7 +51,7 @@ $alert-colors: (
     ),
 );
 
-$primary-text-dark:                 $blue-300 !default;
+$primary-text-dark:                 shade-color($primary, 30%) !default; // Olive green text for dark theme
 $secondary-text-dark:               $gray-300 !default;
 $success-text-dark:                 $green-300 !default;
 $info-text-dark:                    $cyan-300 !default;
@@ -56,7 +60,7 @@ $danger-text-dark:                  $red-300 !default;
 $light-text-dark:                   $gray-100 !default;
 $dark-text-dark:                    $gray-300 !default;
 
-$primary-bg-subtle-dark:            $blue-900 !default;
+$primary-bg-subtle-dark:            shade-color($primary, 80%) !default; // Subtle olive green bg for dark theme
 $secondary-bg-subtle-dark:          $gray-900 !default;
 $success-bg-subtle-dark:            $green-900 !default;
 $info-bg-subtle-dark:               $cyan-900 !default;
@@ -65,7 +69,7 @@ $danger-bg-subtle-dark:             $red-900 !default;
 $light-bg-subtle-dark:              $gray-800 !default;
 $dark-bg-subtle-dark:               mix($gray-800, $black) !default;
 
-$primary-border-subtle-dark:        $blue-700 !default;
+$primary-border-subtle-dark:        shade-color($primary, 60%) !default; // Subtle olive green border for dark theme
 $secondary-border-subtle-dark:      $gray-700 !default;
 $success-border-subtle-dark:        $green-700 !default;
 $info-border-subtle-dark:           $cyan-800 !default;
@@ -85,8 +89,8 @@ $emphasis-color-dark:               $white !default;
 $border-color-dark:                 $gray-700 !default;
 $border-color-translucent-dark:     rgba($white, .15) !default;
 $headings-color-dark:               #fff !default;
-$link-color-dark:                   $blue-300 !default;
-$link-hover-color-dark:             $blue-200 !default;
+$link-color-dark:                   shade-color($primary, 30%) !default; // Olive green link for dark theme
+$link-hover-color-dark:             shade-color($primary, 20%) !default; // Hover olive green link for dark theme
 $code-color-dark:                   $pink-300 !default;
 
 
@@ -235,8 +239,8 @@ $pagination-disabled-color:         $gray-600;
 $pagination-disabled-bg:            $black;
 $pagination-disabled-border-color:  $black;
 $pagination-active-color:           $component-active-color !default;
-$pagination-active-bg:              #3699FF !default;
-$pagination-active-border-color:    #3699FF !default;
+$pagination-active-bg:              $primary !default; // Dark gray for dark theme
+$pagination-active-border-color:    $primary !default; // Dark gray for dark theme
 
 $card-border-color:                 rgba($black, .125);
 $card-bg:                           #1e1e2d;
@@ -263,7 +267,7 @@ $modal-header-border-color:         $border-color;
 $modal-footer-border-color:         $modal-header-border-color;
 
 $progress-bar-color:                $white;
-$progress-bar-bg:                   $primary;
+$progress-bar-bg:                   $primary; // Dark gray progress bar for dark theme
 
 
 $list-group-color:                  #afb0be !default;
@@ -272,7 +276,7 @@ $list-group-bg:                     #151521;
 $list-group-hover-bg:               #101113;
 $list-group-border-color:           rgba($black, .125);
 $list-group-active-color:           $white;
-$list-group-active-bg:              #435ebe;
+$list-group-active-bg:              $primary; // Dark gray for dark theme
 $list-group-active-border-color:    $list-group-active-bg;
 $list-group-disabled-color:         $black;
 $list-group-action-color:           $gray-700;

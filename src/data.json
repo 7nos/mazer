@@ -1,0 +1,196 @@
+{
+  "appName": "KeshavSoft",
+  "dashboard": {
+    "title": "KeshavSoft Dashboard",
+    "subtitle": "Data-driven analytics platform",
+    "stats": [
+      {
+        "id": 1,
+        "title": "Total Revenue",
+        "value": "$42,567",
+        "change": "+12.5%",
+        "icon": "bi-currency-dollar",
+        "color": "olive",
+        "progress": 75,
+        "progressValue": 75
+      },
+      {
+        "id": 2,
+        "title": "New Customers",
+        "value": "1,243",
+        "change": "+8.3%",
+        "icon": "bi-people",
+        "color": "orange",
+        "progress": 60,
+        "progressValue": 60
+      },
+      {
+        "id": 3,
+        "title": "Active Projects",
+        "value": "56",
+        "change": "+4.2%",
+        "icon": "bi-folder",
+        "color": "olive",
+        "progress": 80,
+        "progressValue": 80
+      },
+      {
+        "id": 4,
+        "title": "Pending Tasks",
+        "value": "18",
+        "change": "-2.1%",
+        "icon": "bi-check2-square",
+        "color": "orange",
+        "progress": 30,
+        "progressValue": 30
+      }
+    ]
+  },
+  "recentActivity": [
+    {
+      "id": 1,
+      "user": "John Doe",
+      "action": "created a new project",
+      "target": "Website Redesign",
+      "time": "2 min ago",
+      "type": "olive"
+    },
+    {
+      "id": 2,
+      "user": "Jane Smith",
+      "action": "completed task",
+      "target": "API Integration",
+      "time": "15 min ago",
+      "type": "orange"
+    },
+    {
+      "id": 3,
+      "user": "Robert Johnson",
+      "action": "uploaded document",
+      "target": "Project Proposal",
+      "time": "1 hour ago",
+      "type": "olive"
+    },
+    {
+      "id": 4,
+      "user": "Emily Davis",
+      "action": "commented on",
+      "target": "Dashboard Design",
+      "time": "3 hours ago",
+      "type": "orange"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "E-commerce Platform",
+      "progress": 75,
+      "status": "In Progress",
+      "team": ["Alex", "Sam", "Taylor"],
+      "deadline": "2024-01-15",
+      "color": "olive"
+    },
+    {
+      "id": 2,
+      "name": "Mobile App UI",
+      "progress": 42,
+      "status": "In Progress",
+      "team": ["Jordan", "Casey"],
+      "deadline": "2024-02-28",
+      "color": "orange"
+    },
+    {
+      "id": 3,
+      "name": "Database Migration",
+      "progress": 90,
+      "status": "Almost Done",
+      "team": ["Morgan", "Riley"],
+      "deadline": "2024-01-10",
+      "color": "olive"
+    },
+    {
+      "id": 4,
+      "name": "Security Audit",
+      "progress": 15,
+      "status": "In Progress",
+      "team": ["Quinn", "Drew"],
+      "deadline": "2024-03-15",
+      "color": "orange"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "Admin",
+      "status": "Active",
+      "lastLogin": "2024-01-01 09:30 AM",
+      "color": "olive"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "Editor",
+      "status": "Active",
+      "lastLogin": "2024-01-01 08:45 AM",
+      "color": "orange"
+    },
+    {
+      "id": 3,
+      "name": "Robert Johnson",
+      "email": "robert@example.com",
+      "role": "Viewer",
+      "status": "Inactive",
+      "lastLogin": "2023-12-28 04:20 PM",
+      "color": "olive"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "role": "Editor",
+      "status": "Active",
+      "lastLogin": "2024-01-01 07:15 AM",
+      "color": "orange"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": 1,
+      "title": "Dashboard",
+      "icon": "bi-grid",
+      "url": "/dashboard",
+      "color": "olive"
+    },
+    {
+      "id": 2,
+      "title": "Projects",
+      "icon": "bi-folder",
+      "url": "/projects",
+      "color": "orange"
+    },
+    {
+      "id": 3,
+      "title": "Users",
+      "icon": "bi-people",
+      "url": "/users",
+      "color": "olive"
+    },
+    {
+      "id": 4,
+      "title": "Analytics",
+      "icon": "bi-bar-chart",
+      "url": "/analytics",
+      "color": "orange"
+    },
+    {
+      "id": 5,
+      "title": "Settings",
+      "icon": "bi-gear",
+      "url": "/settings",
+      "color": "olive"
+    }
+  ]
+}

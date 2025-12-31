@@ -15,6 +15,12 @@
 
 <body>
     <script src="assets/static/js/initTheme.js"></script>
+    <script type="application/json" id="dashboard-data">
+        {{ dashboardData | dump | safe }}
+    </script>
+    <script>
+        window.dashboardData = JSON.parse(document.getElementById('dashboard-data').textContent);
+    </script>
     <div id="app">
         <div id="sidebar">
             {% include "src/layouts/sidebar.html" %}
@@ -31,7 +37,7 @@
     </div>
     <script src="assets/static/js/components/dark.js"></script>
     <script src="assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    
+
     {% if isDev %}
     <script src="assets/js/app.js" type="module"></script>
     {% else %}

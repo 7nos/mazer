@@ -51,6 +51,15 @@
         img {
             height: 1.2rem;
         }
+        .sidebar-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            height: 1.2rem;
+        }
     }
     .sidebar-toggler.x {
         position: absolute;
