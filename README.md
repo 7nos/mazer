@@ -4,6 +4,8 @@
 This repository contains a customized version of the [Mazer](https://github.com/7nos/mazer) admin dashboard template, prepared for the Front-End Skill Assessment.
 The objective was to transform the generic template into a branded, data-driven application for "KeshavSoft", focusing on UI/UX improvements and dynamic data binding.
 
+https://github.com/7nos/mazer/blob/main/Screenshot%202025-12-31%20181515.png
+
 ## Key Features
 - **Custom Branding**: App title and navigation rebranded to "KeshavSoft".
 - **Royal Blue Theme**: Primary color updated to `#4361ee` for a premium, professional look.
